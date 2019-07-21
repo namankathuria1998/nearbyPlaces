@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eachrestdetails"
+    android:orientation="vertical"
+
+     android:background="@drawable/skybackgorund"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textColor="#ffffff"
+        android:id="@+id/restname"
+        android:textSize="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic|bold"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/placephoto"
+        android:layout_marginTop="40dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#ffffff"
+        android:text="Overall Rating"
+        android:textSize="26dp" />
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:rating="2.5"
+        android:layout_marginStart="10dp"
+        android:id="@+id/ratingbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/inmap"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="80dp"
+        android:src="@drawable/googlemaps"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/dial"
+        android:id="@+id/dial"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="50dp"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

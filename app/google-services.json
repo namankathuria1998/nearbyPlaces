@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "32550222544",
+    "firebase_url": "https://nearby-places-95675.firebaseio.com",
+    "project_id": "nearby-places-95675",
+    "storage_bucket": "nearby-places-95675.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32550222544:android:97061b764617d46b",
+        "android_client_info": {
+          "package_name": "com.example.hp.nearbyplaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32550222544-jnk33kobm7i6rdrfqikb3dbeal1lbtuj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.nearbyplaces",
+            "certificate_hash": "20e9c974e235525192d75e119e11fc35540cf4ef"
+          }
+        },
+        {
+          "client_id": "32550222544-hhv1m9uplpev7m6dd601uipbng8bv23f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCd4Kr87tYbXhrOv-0roDOb9i4pgs1oM8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32550222544-hhv1m9uplpev7m6dd601uipbng8bv23f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
